@@ -1,3 +1,8 @@
+
+---
+[TOP](./README.md) > [全体目次](./SUMMARY.md)
+
+---
 <style>
 /* 全体のスタイル */
 .header {
@@ -61,10 +66,6 @@
     </a>
 </div>
 
----
-[TOP](./README.md) > [全体目次](./SUMMARY.md)
-
----
 # 全体目次
 
 ---

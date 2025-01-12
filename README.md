@@ -1,6 +1,10 @@
+
+---
+[TOP](./README.md)
+
+---
 <!-- cssを埋め込む！ ここから-->
 <style>
-/* 全体のスタイル */
 .header {
     position: fixed; /* 画面上部に固定 */
     top: 0;
@@ -22,7 +26,6 @@
     cursor: pointer; /* クリック可能なポインターを表示 */
     transition: transform 0.3s ease; /* ホバー時のアニメーション */
 }
-
 .info-section {
     background-color: #f4f4f4;
     border: 2px solid #ccc;
@@ -67,7 +70,6 @@
     color: #000;
     font-size: 1em;
 }
-
 </style>
 
 <div class="header">
@@ -76,10 +78,7 @@
     </a>
 </div>
 
----
-[TOP](./README.md)
 
----
 # クイズまとめサイト!
 
 ---
