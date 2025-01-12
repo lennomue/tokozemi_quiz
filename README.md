@@ -7,12 +7,22 @@
 # クイズまとめサイト!
 
 ---
+
 <p style="color: gray; font-size: 12px;">
 最終更新(2025/01/13)　投稿日(2025/01/12)
 </p>
 
 <style>
-
+.markdown-section h1 { 
+  border-bottom: 4px solid rgba(0, 48, 170, 0.48);
+}
+.markdown-section h2 { 
+  border-bottom: 1px solid #9B95C9;
+}
+/* .accborder {
+    background-color: rgba(0, 48, 170, 0.48);
+    border-width: 1px 0 0 0;
+} */
 .header {
     position: fixed; /* 画面上部に固定 */
     top: 0;
@@ -119,7 +129,7 @@
     <p>・このサイトでは<a href="./Puzzle/puzzle_home.html">パズル</a>や<a href="./Trivia/trivia_home.html">トリビア</a>クイズをまとめています。</p>
     <!-- コメントアウトされた箇所はそのまま -->
     <!-- <p>左の目次バーからジャンル毎の出題も見れます。</p> -->
-    <p>・上部のパンくずリストの<a href="./README.html">TOP</a>でここに戻れます。</p>
+    <p>・上部のパンくずリストの<a>TOP</a>でここに戻れます。</p>
 </div>
 
 <!-- cssを埋め込む！ ここまで-->
@@ -127,6 +137,7 @@
 [](将来的にはhtml、cssで描きたいな〜画像とかボタンとか。。)
 
 ---
+
 - [クイズまとめサイト!](#クイズまとめサイト)
   - [-パズル-](#-パズル-)
     - [ひもで時間計測](#ひもで時間計測)
@@ -144,7 +155,8 @@
 ---
 ## -パズル-
 
----
+<hr class="accborder">
+
 ### ひもで時間計測
 Q. ちょうど1時間で燃えるひもが2本あります。マッチとひもを使って45分を計測してください。ひもに目印をつけたりはできません。
 <details>
@@ -181,6 +193,7 @@ Q. 5Lと3Lの容器が一つずつあります。これを用いて以下の2操
 ---
 
 ## -トリビア-
+<hr class="accborder">
 
 ### 「勿忘草」
 <details>
@@ -231,6 +244,7 @@ Q. 5Lと3Lの容器が一つずつあります。これを用いて以下の2操
   「ようちょう」
 </details>
 
+---
 ### 歌舞伎で見る幕
 Q. この幕はなんという？
 <img src="./Image/trivia_mono_kabuki.jpg" width = "300px">

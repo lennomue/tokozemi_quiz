@@ -12,6 +12,10 @@
 </p>
 
 <style>
+.accborder {
+    background-color: rgba(0, 48, 170, 0.48);
+    border-width: 1px 0 0 0;
+}
 .header {
     position: fixed; /* 画面上部に固定 */
     top: 0;
@@ -58,7 +62,8 @@
 
 ---
 ## -動物/植物/生物-
----
+<hr class="accborder">
+
 ### 「勿忘草」
 <details>
   <summary> 意味 </summary>
@@ -74,7 +79,8 @@
 
 ---
 ## -四字熟語-
----
+<hr class="accborder">
+
 ### 「寤寐思服」
 <details>
   <summary> 意味 </summary>
@@ -90,7 +96,8 @@
 ---
 
 ## -その他-
----
+<hr class="accborder">
+
 ### 「鳩尾」
 <details>
   <summary> 意味 </summary>
