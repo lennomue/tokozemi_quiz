@@ -1,4 +1,4 @@
-<div style="height: 55px; background-color:rgb(255, 255, 255);"></div>
+<div style="height: 30px; background-color:rgb(255, 255, 255);"></div>
 
 ---
 [TOP](../README.md) > [トリビア](./trivia_home.md) > [もの/文化/作品](./trivia_mono.md)
@@ -18,7 +18,7 @@
     left: 0;
     width: 100%;
     height: 60px; /* ヘッダーの高さ */
-    background-color: rgba(155, 225, 255, 0.31); /* 背景色（濃いグレー） */
+    background-color: rgba(255, 179, 158, 0.31); /* 背景色（濃いグレー） */
     color: #fff; /* テキスト色（白） */
     display: flex; /* フレックスボックスでレイアウト */
     align-items: center; /* 縦方向中央揃え */

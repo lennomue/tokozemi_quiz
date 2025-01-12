@@ -1,4 +1,4 @@
-<div style="height: 55px; background-color:rgb(255, 255, 255);"></div>
+<div style="height: 30px; background-color:rgb(255, 255, 255);"></div>
 
 ---
 [TOP](../README.md) > [パズル](./puzzle_home.md)
@@ -17,7 +17,7 @@
     left: 0;
     width: 100%;
     height: 60px; /* ヘッダーの高さ */
-    background-color: rgba(155, 225, 255, 0.31); /* 背景色（濃いグレー） */
+    background-color: rgba(248, 254, 83, 0.31); /* 背景色（濃いグレー） */
     color: #fff; /* テキスト色（白） */
     display: flex; /* フレックスボックスでレイアウト */
     align-items: center; /* 縦方向中央揃え */

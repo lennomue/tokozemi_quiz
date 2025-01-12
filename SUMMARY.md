@@ -1,4 +1,4 @@
-<div style="height: 55px; background-color:rgb(255, 255, 255);"></div>
+<div style="height: 30px; background-color:rgb(255, 255, 255);"></div>
 
 ---
 [TOP](./README.md) > [保管庫](./SUMMARY.md)
@@ -19,7 +19,7 @@
     left: 0;
     width: 100%;
     height: 60px; /* ヘッダーの高さ */
-    background-color: rgba(42, 126, 252, 0.34); /* 背景色（濃いグレー） */
+    background-color: rgba(160, 200, 255, 0.31); /* 背景色（濃いグレー） */
     color: #fff; /* テキスト色（白） */
     display: flex; /* フレックスボックスでレイアウト */
     align-items: center; /* 縦方向中央揃え */
@@ -33,6 +33,8 @@
     height: 40px; /* ロゴ画像の高さ */
     cursor: pointer; /* クリック可能なポインターを表示 */
     transition: transform 0.3s ease; /* ホバー時のアニメーション */
+    background-color: transparent; /* 背景を透明に指定 */
+    image-rendering: auto; /* PNG画像のレンダリング設定 */
 }
 
 .info-section {
