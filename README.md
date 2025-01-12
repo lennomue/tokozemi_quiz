@@ -1,3 +1,4 @@
+<div style="height: 55px; background-color:rgb(255, 255, 255);"></div>
 
 ---
 [TOP](./README.md)
@@ -11,6 +12,7 @@
 </p>
 
 <style>
+
 .header {
     position: fixed; /* 画面上部に固定 */
     top: 0;

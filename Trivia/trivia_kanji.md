@@ -1,3 +1,4 @@
+<div style="height: 55px; background-color:rgb(255, 255, 255);"></div>
 
 ---
 [TOP](../README.md) > [トリビア](./trivia_home.md) > [難読漢字](./trivia_kanji.md)

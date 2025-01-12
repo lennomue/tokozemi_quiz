@@ -1,3 +1,4 @@
+<div style="height: 55px; background-color:rgb(255, 255, 255);"></div>
 
 ---
 [TOP](../README.md) > [パズル](./puzzle_home.md)
