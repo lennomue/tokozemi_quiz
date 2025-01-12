@@ -84,7 +84,7 @@
 ---
 (2025/1/12)
 
-- [全体の目次へ](./SUMMARY.md)
+- [パズル](./Puzzle/puzzle_home.md)
 
 <div class="info-section">
     <p>・<a class="acc" href="#ひもで時間計測">現在掲載中の問題へ!</a></p>
