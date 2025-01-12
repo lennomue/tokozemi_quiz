@@ -11,7 +11,7 @@
     left: 0;
     width: 100%;
     height: 60px; /* ヘッダーの高さ */
-    background-color: rgba(42, 126, 252, 0.34); /* 背景色（濃いグレー） */
+    background-color: hsla(210, 100.00%, 86.30%, 0.34); /* 背景色（濃いグレー） */
     color: #fff; /* テキスト色（白） */
     display: flex; /* フレックスボックスでレイアウト */
     align-items: center; /* 縦方向中央揃え */
@@ -83,6 +83,8 @@
 
 ---
 (2025/1/12)
+
+- [全体の目次へ](./SUMMARY.md)
 
 <div class="info-section">
     <p>・<a class="acc" href="#ひもで時間計測">現在掲載中の問題へ!</a></p>
