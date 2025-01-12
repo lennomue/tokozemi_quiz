@@ -84,12 +84,10 @@
 ---
 (2025/1/12)
 
-- [パズル](./Puzzle/puzzle_home.md)
-
 <div class="info-section">
     <p>・<a class="acc" href="#ひもで時間計測">現在掲載中の問題へ!</a></p>
-    <p>・全体の <a href="./SUMMARY.md">目次へ</a></p>
-    <p>・このサイトでは<a href="./Puzzle/puzzle_home.md">パズル</a>や<a href="./Trivia/trivia_home.md">トリビア</a>クイズをまとめています。</p>
+    <p>・全体の <a href="./SUMMARY.html">目次へ</a></p>
+    <p>・このサイトでは<a href="./Puzzle/puzzle_home.html">パズル</a>や<a href="./Trivia/trivia_home.html">トリビア</a>クイズをまとめています。</p>
     <!-- コメントアウトされた箇所はそのまま -->
     <!-- <p>左の目次バーからジャンル毎の出題も見れます。</p> -->
     <p>・ページ上部の「tokozemi_quiz」を押すとここに戻ります。</p>
