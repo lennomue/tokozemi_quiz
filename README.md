@@ -13,16 +13,10 @@
 </p>
 
 <style>
-.markdown-section h1 { 
-  border-bottom: 4px solid rgba(0, 48, 170, 0.48);
-}
-.markdown-section h2 { 
-  border-bottom: 1px solid #9B95C9;
-}
-/* .accborder {
+.accborder {
     background-color: rgba(0, 48, 170, 0.48);
     border-width: 1px 0 0 0;
-} */
+}
 .header {
     position: fixed; /* 画面上部に固定 */
     top: 0;
