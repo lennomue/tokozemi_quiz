@@ -1,8 +1,15 @@
 
 ---
-[TOP](./README.md) > [全体目次](./SUMMARY.md)
+[TOP](./README.md) > [保管庫](./SUMMARY.md)
 
 ---
+# 保管庫
+
+---
+<p style="color: gray; font-size: 12px;">
+最終更新(2025/01/13)　投稿日(2025/01/12)
+</p>
+
 <style>
 /* 全体のスタイル */
 .header {
@@ -65,11 +72,7 @@
         <img src="./Image/tokozemi_logo_touka.PNG" alt="サイトロゴ">
     </a>
 </div>
-
-# 全体目次
-
----
-(2025/1/12)
+<script src="script.js"></script>
 
 * [トップ](./README.md)
 
@@ -83,17 +86,19 @@
 
 * [トリビア](./Trivia/trivia_home.md)
   * [難読漢字](./Trivia/trivia_kanji.md)
-    * [体の部位](./Trivia/trivia_kanji.md#体の部位) 
+    * [動物/植物/生物](./Trivia/trivia_kanji.md#-動物植物生物-) 
+    * [四字熟語](./Trivia/trivia_kanji.md#-四字熟語-)
+    * [その他](./Trivia/trivia_kanji.md#-その他-)
   * 人物
     * 日本
     * 海外
-  * 場所
+  * 建築/地理
     * 日本
     * 海外
-  * 作品
-    * 日本
-    * 海外
-  * ものの名前
+  * [もの/文化/作品](./Trivia/trivia_mono.md)
+    * [日本文化](./Trivia/trivia_mono.md#-日本文化-)
+    * [海外文化](./Trivia/trivia_mono.md#-海外文化-)
+    * [その他](./Trivia/trivia_mono.md#-その他-)
   * その他
 
 

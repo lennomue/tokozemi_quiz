@@ -3,7 +3,13 @@
 [TOP](./README.md)
 
 ---
-<!-- cssを埋め込む！ ここから-->
+# クイズまとめサイト!
+
+---
+<p style="color: gray; font-size: 12px;">
+最終更新(2025/01/13)　投稿日(2025/01/12)
+</p>
+
 <style>
 .header {
     position: fixed; /* 画面上部に固定 */
@@ -28,6 +34,8 @@
     height: 40px; /* ロゴ画像の高さ */
     cursor: pointer; /* クリック可能なポインターを表示 */
     transition: transform 0.3s ease; /* ホバー時のアニメーション */
+    background-color: transparent; /* 背景を透明に指定 */
+    image-rendering: auto; /* PNG画像のレンダリング設定 */
 }
 .info-section {
     background-color: #f4f4f4;
@@ -75,12 +83,14 @@
 }
 </style>
 
+
+<!-- このjsスクリプト、反映されないかも、、 -->
 <script>
   let lastScrollPosition = 0;
   const header = document.getElementById('header');
   window.addEventListener('scroll', () => {
       const currentScrollPosition = window.scrollY;
-
+      console.log("scrolled!");
       if (currentScrollPosition > lastScrollPosition) {
           // 下スクロール時にヘッダーを隠す
           header.style.transform = 'translateY(-100%)';
@@ -88,7 +98,6 @@
           // 上スクロール時にヘッダーを表示
           header.style.transform = 'translateY(0)';
       }
-
       lastScrollPosition = currentScrollPosition;
   });
 </script>
@@ -99,19 +108,16 @@
         <img src="./Image/tokozemi_logo_touka.PNG" alt="サイトロゴ">
     </a>
 </div>
+<script src="script.js"></script>
 
-# クイズまとめサイト!
-
----
-(2025/1/12)
-
+<!-- htmlタグからのhrefをする際には、github pagesがレンダーしたのちの~.htmlで指定します -->
 <div class="info-section">
     <p>・<a class="acc" href="#ひもで時間計測">現在掲載中の問題へ!</a></p>
-    <p>・全体の <a href="./SUMMARY.html">目次へ</a></p>
+    <p>・今までの問題の <a href="./SUMMARY.html">保管庫へ</a></p>
     <p>・このサイトでは<a href="./Puzzle/puzzle_home.html">パズル</a>や<a href="./Trivia/trivia_home.html">トリビア</a>クイズをまとめています。</p>
     <!-- コメントアウトされた箇所はそのまま -->
     <!-- <p>左の目次バーからジャンル毎の出題も見れます。</p> -->
-    <p>・ページ上部の「tokozemi_quiz」を押すとここに戻ります。</p>
+    <p>・ページ上部の「tokozemi_quiz」を押すとここに戻ります。が、上部のパンくずリストが見やすいです。ここがTOPです。</p>
 </div>
 
 <!-- cssを埋め込む！ ここまで-->
@@ -128,7 +134,10 @@
     - [「寤寐思服」](#寤寐思服)
     - [「鳩尾」](#鳩尾)
     - [「窈窕」](#窈窕)
-  - [参考にするサイト群](#参考にするサイト群)
+    - [歌舞伎で見る幕](#歌舞伎で見る幕)
+    - [マリトッツォの意味](#マリトッツォの意味)
+    - [昼過ぎの眠気](#昼過ぎの眠気)
+  - [参考としているサイト群](#参考としているサイト群)
 
 ---
 ## -パズル-
@@ -220,10 +229,59 @@ Q. 5Lと3Lの容器が一つずつあります。これを用いて以下の2操
   「ようちょう」
 </details>
 
+### 歌舞伎で見る幕
+Q. この幕はなんという？
+<img src="./Image/trivia_mono_kabuki.jpg" width = "300px">
+
+<details>
+  <summary> 答え </summary>
+
+  「定式幕」(じょうしきまく)
+</details>
+<details>
+  <summary> 解説 </summary>
+
+  それぞれの色は黒色、柿色、萌葱色と言う。なお、流派によって色使いや順番の異なるものもある。
+  また、歌舞伎にはさまざまな幕が登場する。「黒幕」の語源も歌舞伎のそれであることも有名。
+  画像の引用先の<a href="https://enmokudb.kabuki.ne.jp/phraseology/2569/">サイト</a>で詳しく勉強もできます。
+</details>
+
+---
+
+### マリトッツォの意味
+Q. イタリアのお菓子として知られるマリトッツォ。その名前の由来は？
+<details>
+  <summary> 答え </summary>
+
+  「小さな夫」
+</details>
+<details>
+  <summary> 解説 </summary>
+
+  イタリア語で夫を意味する「マリート（Marito）」からきているというのが有力である。
+  昔、男性がマリトッツォの中に婚約指輪を入れて女性にプロポーズするという習慣があったとかなかったとか、、
+</details>
+
+---
+### 昼過ぎの眠気
+Q. 午後に眠くなるという傾向を英語でなんというか？
+<details>
+  <summary> 答え </summary>
+  
+  アフタヌーンディップ
+  ポストランチディップ
+</details>
+<details>
+  <summary> 解説 </summary>
+  
+  ほぼ直訳、dipは落ち込むといった意味である。
+  午後の眠気は食事による血糖値の上昇が要因と考えやすいが、食事がなくても昼過ぎに眠気が来るという実験があったそうで、、
+</details>
+
 ---
 ---
 
-## 参考にするサイト群
+## 参考としているサイト群
 - [goo辞書](https://dictionary.goo.ne.jp/)
 - [Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8)
 - [四字熟語辞典オンライン](https://yoji.jitenon.jp/)
