@@ -11,13 +11,16 @@
     left: 0;
     width: 100%;
     height: 60px; /* ヘッダーの高さ */
-    background-color: hsla(210, 100.00%, 86.30%, 0.34); /* 背景色（濃いグレー） */
+    background-color: rgba(155, 225, 255, 0.31); /* 背景色（濃いグレー） */
     color: #fff; /* テキスト色（白） */
     display: flex; /* フレックスボックスでレイアウト */
     align-items: center; /* 縦方向中央揃え */
     justify-content: center; /* 左右に要素を配置 */
     box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1); /* 軽い影 */
     z-index: 1000; /* 他の要素より前面に表示 */
+    transform: translateY(0);
+    /* transform: translateY(-100%); */
+    transition: transform 0.3s ease-in-out; /* スムーズなアニメーション */
 }
 
 /* ロゴ画像のスタイル */
@@ -72,12 +75,30 @@
 }
 </style>
 
+<script>
+  let lastScrollPosition = 0;
+  const header = document.getElementById('header');
+  window.addEventListener('scroll', () => {
+      const currentScrollPosition = window.scrollY;
+
+      if (currentScrollPosition > lastScrollPosition) {
+          // 下スクロール時にヘッダーを隠す
+          header.style.transform = 'translateY(-100%)';
+      } else {
+          // 上スクロール時にヘッダーを表示
+          header.style.transform = 'translateY(0)';
+      }
+
+      lastScrollPosition = currentScrollPosition;
+  });
+</script>
+
+
 <div class="header">
     <a href="https://tokozemi.securesite.jp/">
         <img src="./Image/tokozemi_logo_touka.PNG" alt="サイトロゴ">
     </a>
 </div>
-
 
 # クイズまとめサイト!
 
