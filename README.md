@@ -13,10 +13,6 @@
 </p>
 
 <style>
-.accborder {
-    background-color: rgba(0, 48, 170, 0.48);
-    border-width: 1px 0 0 0;
-}
 .header {
     position: fixed; /* 画面上部に固定 */
     top: 0;
@@ -148,8 +144,7 @@
 
 ---
 ## -パズル-
-
-<hr class="accborder">
+---
 
 ### ひもで時間計測
 Q. ちょうど1時間で燃えるひもが2本あります。マッチとひもを使って45分を計測してください。ひもに目印をつけたりはできません。

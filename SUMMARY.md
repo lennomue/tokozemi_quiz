@@ -101,9 +101,4 @@
   * [もの/文化/作品](./Trivia/trivia_mono.md)
     * [日本文化](./Trivia/trivia_mono.md#-日本文化-)
     * [海外文化](./Trivia/trivia_mono.md#-海外文化-)
-    * [その他](./Trivia/trivia_mono.md#-その他-)
-  * その他
-
-
-[]([写真を見て名前を当てるやーつ](./Trivia/trivia_picture.md))
-
+  * [その他](./Trivia/trivia_sonota.md)
