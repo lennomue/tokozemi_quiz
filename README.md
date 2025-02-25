@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <!-- htmlタグからのhrefをする際には、github pagesがレンダーしたのちの~.htmlで指定します -->
 <div class="info-section">
-    <p>・<a class="acc" href="#角度は">現在掲載中の問題へ!</a></p>
+    <p>・<a class="acc" href="#どっちが早く転がる">現在掲載中の問題へ!</a></p>
     <p>・今までの問題の <a href="./SUMMARY.html">保管庫へ</a></p>
     <p>・このサイトでは<a href="./Puzzle/puzzle_home.html">パズル</a>や<a href="./Trivia/trivia_home.html">トリビア</a>クイズをまとめています。</p>
     <!-- コメントアウトされた箇所はそのまま -->
@@ -149,6 +149,7 @@ document.addEventListener("DOMContentLoaded", function() {
   - [-トリビア-](#-トリビア-)
     - [そば処の"おばけ"](#そば処のおばけ)
     - [ものの数え方 ~ お箸は一膳 ~](#ものの数え方--お箸は一膳-)
+    - [どっちが早く転がる？](#どっちが早く転がる)
   - [参考としているサイト群](#参考としているサイト群)
 
 ---
@@ -268,23 +269,38 @@ Q. 次のものを数える時に共通する単位は？
     <summary> 答え </summary>
     ・丁(ちょう)
     </details>
+  </li>
 
   <li>鳥居,ピラミッド<br>
     <details>
     <summary>答え</summary>
     ・基(き)
     </details>
+  </li>
 
   <li>昆布,鰹節<br>
     <details>
     <summary>答え</summary>
     ・連(れん)
     </details>
+  </li>
 </ol>
 
 ---
 
+---
+### どっちが早く転がる？
+Q. 中身が液体のコーヒー缶と凍らせた缶、どちらが早く坂を転がるでしょうか？
+<details>
+  <summary> 答え </summary>
+  <div style="text-align: center;">
+  <iframe width="384" height="682" src="https://www.youtube.com/embed/bCZqEM8l0qo" title="どっちが早く転がる？" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+</details>
+
+---
 ## 参考としているサイト群
 - [goo辞書](https://dictionary.goo.ne.jp/)
 - [Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8)
 - [四字熟語辞典オンライン](https://yoji.jitenon.jp/)
+- [ド文系でも楽しい【ゆっくり数学の雑学】](https://youtube.com/@yukkuri_suugaku?si=2T8hw85K5uSuZebs)

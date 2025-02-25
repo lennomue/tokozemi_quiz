@@ -8,7 +8,7 @@
 
 ---
 <p style="color: gray; font-size: 12px;">
-最終更新(2025/01/17)　投稿日(2025/01/12)
+最終更新(2025/02/26)　投稿日(2025/01/12)
 </p>
 
 <style>
@@ -49,6 +49,7 @@
 
 - [トリビア！ - その他](#トリビア---その他)
     - [昼過ぎの眠気](#昼過ぎの眠気)
+    - [どっちが早く転がる？](#どっちが早く転がる)
 
 ---
 ### 昼過ぎの眠気
@@ -64,6 +65,16 @@ Q. 午後に眠くなるという傾向を英語でなんというか？
   <summary> 解説 </summary>
   ほぼ直訳、dipは落ち込むといった意味である。<br>
   午後の眠気は食事による血糖値の上昇が要因と考えやすいが、食事がなくても昼過ぎに眠気が来るという実験があったそうで、じゃ眠くたって仕方ないじゃない！
+</details>
+
+---
+### どっちが早く転がる？
+Q. 中身が液体のコーヒー缶と凍らせた缶、どちらが早く坂を転がるでしょうか？
+<details>
+  <summary> 答え </summary>
+  <div style="text-align: center;">
+  <iframe width="384" height="682" src="https://www.youtube.com/embed/bCZqEM8l0qo" title="どっちが早く転がる？" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
 </details>
 
 ---
