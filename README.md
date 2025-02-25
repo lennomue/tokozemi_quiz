@@ -279,29 +279,28 @@ Q. そば/うどん屋のメニューに「おばけ」というものがある�
 ---
 ### ものの数え方 ~ お箸は一膳 ~
 Q. 次のものを数える時に共通する単位は？
+
 <ol>
   <li>はさみ,豆腐<br>
-
-  <details>
-  <summary> 答え </summary>
-  ・丁(ちょう)
-  </details>
+    <details>
+    <summary> 答え </summary>
+    ・丁(ちょう)
+    </details>
 
   <li>鳥居,ピラミッド<br>
-
-  <details>
-  <summary>答え</summary>
-  ・基(き)
-  </details>
+    <details>
+    <summary>答え</summary>
+    ・基(き)
+    </details>
 
   <li>昆布,鰹節<br>
-  
-  <details>
-  <summary>答え</summary>
-  ・連(れん)
-  </details>
+    <details>
+    <summary>答え</summary>
+    ・連(れん)
+    </details>
 
 </ol>
+
 
 ---
 
