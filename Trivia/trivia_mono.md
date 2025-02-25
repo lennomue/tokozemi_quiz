@@ -8,7 +8,7 @@
 
 ---
 <p style="color: gray; font-size: 12px;">
-最終更新(2025/01/17)　投稿日(2025/01/12)
+最終更新(2025/02/26)　投稿日(2025/01/12)
 </p>
 
 <style>
@@ -61,18 +61,18 @@
 
 ### 歌舞伎で見る幕
 Q. この幕はなんという？
-<img src="../Image/trivia_mono_kabuki.jpg" width = "300px">
+<div style="text-align: center;">
+    <img src="../Image/trivia/mono/trivia_mono_kabuki.jpg" width="300px">
+</div>
 
 <details>
   <summary> 答え </summary>
-
   「定式幕」(じょうしきまく)
 </details>
 <details>
   <summary> 解説 </summary>
-
-  それぞれの色は黒色、柿色、萌葱色と言う。なお、流派によって色使いや順番の異なるものもある。
-  また、歌舞伎にはさまざまな幕が登場する。「黒幕」の語源も歌舞伎のそれであることも有名。
+  それぞれの色は黒色、柿色、萌葱色と言う。なお、流派によって色使いや順番の異なるものもある。<br>
+  また、歌舞伎にはさまざまな幕が登場する。「黒幕」の語源も歌舞伎のそれであることも有名。<br>
   画像の引用先の<a href="https://enmokudb.kabuki.ne.jp/phraseology/2569/">サイト</a>で詳しく勉強もできます。
 </details>
 
@@ -95,20 +95,25 @@ Q. そば/うどん屋のメニューに「おばけ」というものがある�
 Q. 次のものを数える時に共通する単位は？
 <ol>
   <li>はさみ,豆腐<br>
-  <details>
-  <summary> 答え </summary>
-  ・丁(ちょう)
-  </details>
+    <details>
+      <summary> 答え </summary>
+      ・丁(ちょう)
+    </details>
+  </li>
+  
   <li>鳥居,ピラミッド<br>
-  <details>
-  <summary>答え</summary>
-  ・基(き)
-  </details>
+    <details>
+      <summary>答え</summary>
+      ・基(き)
+    </details>
+  </li>
+  
   <li>昆布,鰹節<br>
-  <details>
-  <summary>答え</summary>
-  ・連(れん)
-  </details>
+    <details>
+      <summary>答え</summary>
+      ・連(れん)
+    </details>
+  </li>
 </ol>
 
 

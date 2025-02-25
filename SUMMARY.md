@@ -8,7 +8,7 @@
 
 ---
 <p style="color: gray; font-size: 12px;">
-最終更新(2025/01/17)　投稿日(2025/01/12)
+最終更新(2025/02/26)　投稿日(2025/01/12)
 </p>
 
 <style>
@@ -84,7 +84,7 @@
 
 * [パズル](./Puzzle/puzzle_home.md)
   * [計算](./Puzzle/puzzle_keisan.md)
-  *  論理
+  * [図形](./Puzzle/puzzle_zukei.md)
   *  その他
 
 * [トリビア](./Trivia/trivia_home.md)

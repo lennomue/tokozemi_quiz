@@ -1,3 +1,15 @@
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll("details summary").forEach(summary => {
+        summary.addEventListener("click", function() {
+            if (window.MathJax) {
+                MathJax.typesetPromise();
+            }
+        });
+    });
+});
+</script>
 <div style="height: 30px; background-color:rgb(255, 255, 255);"></div>
 
 ---
@@ -9,7 +21,7 @@
 ---
 
 <p style="color: gray; font-size: 12px;">
-最終更新(2025/01/17)　投稿日(2025/01/12)
+最終更新(2025/02/26)　投稿日(2025/01/12)
 </p>
 
 <style>
@@ -114,7 +126,7 @@
 
 <!-- htmlタグからのhrefをする際には、github pagesがレンダーしたのちの~.htmlで指定します -->
 <div class="info-section">
-    <p>・<a class="acc" href="#ものの数え方--お箸は一膳-">現在掲載中の問題へ!</a></p>
+    <p>・<a class="acc" href="#角度は">現在掲載中の問題へ!</a></p>
     <p>・今までの問題の <a href="./SUMMARY.html">保管庫へ</a></p>
     <p>・このサイトでは<a href="./Puzzle/puzzle_home.html">パズル</a>や<a href="./Trivia/trivia_home.html">トリビア</a>クイズをまとめています。</p>
     <!-- コメントアウトされた箇所はそのまま -->
@@ -132,16 +144,11 @@
   - [-パズル-](#-パズル-)
     - [ひもで時間計測](#ひもで時間計測)
     - [ピッタリ水汲み](#ピッタリ水汲み)
+    - [面積を求めよう-1](#面積を求めよう-1)
+    - [角度は？](#角度は)
   - [-トリビア-](#-トリビア-)
-    - [「勿忘草」](#勿忘草)
-    - [「寤寐思服」](#寤寐思服)
-    - [「鳩尾」](#鳩尾)
-    - [「窈窕」](#窈窕)
-    - [歌舞伎で見る幕](#歌舞伎で見る幕)
     - [そば処の"おばけ"](#そば処のおばけ)
     - [ものの数え方 ~ お箸は一膳 ~](#ものの数え方--お箸は一膳-)
-    - [マリトッツォの意味](#マリトッツォの意味)
-    - [昼過ぎの眠気](#昼過ぎの眠気)
   - [参考としているサイト群](#参考としているサイト群)
 
 ---
@@ -196,71 +203,46 @@ Q. 5Lと3Lの容器が一つずつあります。これを用いて以下の2操
 </details>
 
 ---
+### 面積を求めよう-1
+Q. 次の斜線部の面積は？
+<div style="text-align: center;">
+    <img src="./Image/puzzle/zukei/puzzle_zukei_menseki_01_q.png" width="300px">
+</div>
+<details>
+  <summary> ヒント </summary>
+  正方形と斜線部の面積比を考える
+  <div style="text-align: center;">
+    <img src="./Image/puzzle/zukei/puzzle_zukei_menseki_01_a_01.png" width="150px">
+  </div>
+</details>
+<details>
+    <summary> 答え </summary>
+    <div style="text-align: center;">
+    <img src="./Image/puzzle/zukei/puzzle_zukei_menseki_01_a_02.png" width="150px">
+    <img src="./Image/puzzle/zukei/puzzle_zukei_menseki_01_a_03.png" width="150px">
+  </div>
+  <p>このように見れば \( (正方形)\times\frac{5}{4} = (斜線部) \) となる。<br>
+  また\((三角形全体) = (正方形)+(斜線部) = \frac{9}{5}\times(斜線部)\)であり、同時に<br>
+  \((三角形全体) = \frac{1}{2}\times6\times6=18\)である。<br>
+  以上から\((斜線部) = \frac{5}{9}\times(三角形全体) = 10\)</p>
+</details>
+
+---
+### 角度は？
+<div style="text-align: center;">
+    <img src="./Image/puzzle/zukei/puzzle_zukei_kakudo_01_q.png" width="300px">
+</div>
+<details>
+    <summary> 答え </summary>
+    <div style="text-align: center;">
+    <img src="./Image/puzzle/zukei/puzzle_zukei_kakudo_01_a_01.png" width="150px">
+  </div>
+  <p>この補助線によって上部2辺を見ると、直角かつ同じ長さである。<br>
+  従って90°-45°-45°の三角形とわかる。求めるのは45°</p>
+</details>
+
+---
 ## -トリビア-
----
-
-### 「勿忘草」
-<details>
-  <summary> 意味 </summary>
-  英名は「forget-me-not」ともいう。
-  英名も含めて楽曲のタイトルとして多用される。<br>
-  なお、この命名はドイツの物語でのセリフ"Vergiss-mein-nicht!"（僕のことを忘れないで！）に由来しているとされる。
-</details>
-<details>
-  <summary> 答え </summary>
-  「わすれなぐさ」
-</details>
-
----
-### 「寤寐思服」
-<details>
-  <summary> 意味 </summary>
-  寝ても覚めても忘れられないこと、また人に対する思いが切ないこと。<br>
-  「寤」は起床すること。「寐」は就寝すること。「思服」はいつも思っていること。
-</details>
-<details>
-  <summary> 答え </summary>
-  「ごびしふく」
-</details>
-
-
----
-### 「鳩尾」
-<details>
-  <summary> 意味 </summary>
-  胸とへその間のへこんだ部分。心窩部（しんかぶ）ともいう。
-</details>
-<details>
-  <summary> 答え </summary>
-  「みぞおち」
-</details>
-
----
-### 「窈窕」
-<details>
-  <summary> 意味 </summary>
-  美しくしとやかなさま。上品で奥ゆかしいさま。
-</details>
-<details>
-  <summary> 答え </summary>
-  「ようちょう」
-</details>
-
----
-### 歌舞伎で見る幕
-Q. この幕はなんという？
-<img src="./Image/trivia_mono_kabuki.jpg" width = "300px">
-
-<details>
-  <summary> 答え </summary>
-  「定式幕」(じょうしきまく)
-</details>
-<details>
-  <summary> 解説 </summary>
-  それぞれの色は黒色、柿色、萌葱色と言う。なお、流派によって色使いや順番の異なるものもある。<br>
-  また、歌舞伎にはさまざまな幕が登場する。「黒幕」の語源も歌舞伎のそれであることも有名。<br>
-  画像の引用先の<a href="https://enmokudb.kabuki.ne.jp/phraseology/2569/">サイト</a>で詳しく勉強もできる。
-</details>
 
 ---
 ### そば処の"おばけ"
@@ -298,41 +280,8 @@ Q. 次のものを数える時に共通する単位は？
     <summary>答え</summary>
     ・連(れん)
     </details>
-
 </ol>
 
-
----
-
-### マリトッツォの意味
-Q. イタリアのお菓子として知られるマリトッツォ。その名前の由来は？
-<details>
-  <summary> 答え </summary>
-  「小さな夫」
-</details>
-<details>
-  <summary> 解説 </summary>
-  イタリア語で夫を意味する「マリート（Marito）」からきているというのが有力である。<br>
-  昔、男性がマリトッツォの中に婚約指輪を入れて女性にプロポーズするという習慣があったとかなかったとか、、
-</details>
-
----
-### 昼過ぎの眠気
-Q. 午後に眠くなるという傾向を英語でなんというか？
-<details>
-  <summary> 答え </summary>
-  <ul>
-    <li>アフタヌーンディップ</li>
-    <li>ポストランチディップ</li>
-  </ul>  
-</details>
-<details>
-  <summary> 解説 </summary>
-  ほぼ直訳、dipは落ち込むといった意味である。<br>
-  午後の眠気は食事による血糖値の上昇が要因と考えやすいが、食事がなくても昼過ぎに眠気が来るという実験があったそうで、じゃ眠くたって仕方ないじゃない！
-</details>
-
----
 ---
 
 ## 参考としているサイト群
