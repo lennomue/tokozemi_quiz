@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
 ---
 
 <p style="color: gray; font-size: 12px;">
-最終更新(2025/02/26)　投稿日(2025/01/12)
+最終更新(2025/02/27)　投稿日(2025/01/12)
 </p>
 
 <style>
@@ -145,6 +145,7 @@ document.addEventListener("DOMContentLoaded", function() {
     - [ひもで時間計測](#ひもで時間計測)
     - [ピッタリ水汲み](#ピッタリ水汲み)
     - [面積を求めよう-1](#面積を求めよう-1)
+    - [面積を求めよう-2](#面積を求めよう-2)
     - [角度は？](#角度は)
   - [-トリビア-](#-トリビア-)
     - [そば処の"おばけ"](#そば処のおばけ)
@@ -229,7 +230,31 @@ Q. 次の斜線部の面積は？
 </details>
 
 ---
+### 面積を求めよう-2
+Q. 次の斜線部の面積は？
+<div style="text-align: center;">
+    <img src="./Image/puzzle/zukei/puzzle_zukei_menseki_02_q.png" width="300px">
+</div>
+<details>
+  <summary> ヒント </summary>
+  5の長さをそのまま中心部に移動する
+  <div style="text-align: center;">
+    <img src="./Image/puzzle/zukei/puzzle_zukei_menseki_02_a_01.png" width="150px">
+  </div>
+</details>
+<details>
+    <summary> 答え </summary>
+    <div style="text-align: center;">
+    <img src="./Image/puzzle/zukei/puzzle_zukei_menseki_02_a_02.png" width="150px">
+    <img src="./Image/puzzle/zukei/puzzle_zukei_menseki_02_a_03.png" width="150px">
+  </div>
+  <p>このように見れば中心の正方形の対角線の長さが\(10\)とわかる<br>
+  従って面積は\(\frac{1}{2}\times10\times10=50\)</p>
+</details>
+
+---
 ### 角度は？
+Q. 次の図の「?」の角度は？
 <div style="text-align: center;">
     <img src="./Image/puzzle/zukei/puzzle_zukei_kakudo_01_q.png" width="300px">
 </div>
