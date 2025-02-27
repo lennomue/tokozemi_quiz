@@ -1,1 +1,27 @@
-title: ""  # 空にすることでリポジトリ名を非表示にする
+# サイトの基本設定
+title: ""
+# description: "パズルやトリビアクイズをまとめているサイトです"
+# baseurl: ""  # リポジトリ名がユーザー名.github.ioの場合は空欄
+# url: ""      # 本番環境のURLを設定
+
+# # ビルド設定
+# markdown: kramdown  # マークダウンパーサーの指定
+# kramdown:
+#   math_engine: mathjax  # 数式表示用の設定
+
+# # ファイル除外設定
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor
+
+# # デフォルトのFront Matter設定
+# defaults:
+#   -
+#     scope:
+#       path: ""      # 空文字は全てのファイルを意味する
+#       type: "pages" # pagesはmarkdownやhtmlファイルを指す
+#     values:
+#       layout: "default"  # デフォルトレイアウトの指定
+#       mathjax: false     # デフォルトでMathJaxは無効
