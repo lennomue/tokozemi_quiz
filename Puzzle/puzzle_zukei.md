@@ -1,16 +1,7 @@
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    document.querySelectorAll("details summary").forEach(summary => {
-        summary.addEventListener("click", function() {
-            if (window.MathJax) {
-                MathJax.typesetPromise();
-            }
-        });
-    });
-});
-</script>
-
+---
+layout: default
+mathjax: true
+---
 
 <div style="height: 30px; background-color:rgb(255, 255, 255);"></div>
 
@@ -38,9 +29,11 @@ document.addEventListener("DOMContentLoaded", function() {
     justify-content: center; /* 左右に要素を配置 */
     box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1); /* 軽い影 */
     z-index: 1000; /* 他の要素より前面に表示 */
-    transform: translateY(0);
-    /* transform: translateY(-100%); */
     transition: transform 0.3s ease-in-out; /* スムーズなアニメーション */
+}
+
+.header--hidden {
+    transform: translateY(-100%);
 }
 
 /* ロゴ画像のスタイル */
@@ -58,7 +51,27 @@ document.addEventListener("DOMContentLoaded", function() {
         <img src="../Image/tokozemi_logo_touka.PNG" alt="サイトロゴ">
     </a>
 </div>
-<script src="script.js"></script>
+
+<script type="text/javascript">
+{
+    let lastScrollTop = 0;
+    const header = document.querySelector('.header');
+    
+    window.addEventListener('scroll', () => {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        
+        if (scrollTop > lastScrollTop) {
+            // 下スクロール時
+            header.classList.add('header--hidden');
+        } else {
+            // 上スクロール時
+            header.classList.remove('header--hidden');
+        }
+        
+        lastScrollTop = scrollTop;
+    });
+}
+</script>
 
 - [パズル！ - 図形](#パズル---図形)
     - [面積を求めよう-1](#面積を求めよう-1)

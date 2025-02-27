@@ -24,9 +24,11 @@
     justify-content: center; /* 左右に要素を配置 */
     box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1); /* 軽い影 */
     z-index: 1000; /* 他の要素より前面に表示 */
-    transform: translateY(0);
-    /* transform: translateY(-100%); */
     transition: transform 0.3s ease-in-out; /* スムーズなアニメーション */
+}
+
+.header--hidden {
+    transform: translateY(-100%);
 }
 
 /* ロゴ画像のスタイル */
@@ -44,7 +46,27 @@
         <img src="../Image/tokozemi_logo_touka.PNG" alt="サイトロゴ">
     </a>
 </div>
-<script src="script.js"></script>
+
+<script type="text/javascript">
+{
+    let lastScrollTop = 0;
+    const header = document.querySelector('.header');
+    
+    window.addEventListener('scroll', () => {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        
+        if (scrollTop > lastScrollTop) {
+            // 下スクロール時
+            header.classList.add('header--hidden');
+        } else {
+            // 上スクロール時
+            header.classList.remove('header--hidden');
+        }
+        
+        lastScrollTop = scrollTop;
+    });
+}
+</script>
 
 - [パズル！ - 計算](#パズル---計算)
     - [ひもで時間計測](#ひもで時間計測)

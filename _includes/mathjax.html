@@ -1,0 +1,12 @@
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll("details summary").forEach(summary => {
+        summary.addEventListener("click", function() {
+            if (window.MathJax) {
+                MathJax.typesetPromise();
+            }
+        });
+    });
+});
+</script> 
