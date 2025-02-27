@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 </script>
 
-<script src="script.js"></script>
+<!-- <script src="script.js"></script> -->
 <div class="header">
     <a href="https://tokozemi.securesite.jp/">
         <img src="./Image/tokozemi_logo_touka.PNG" alt="サイトロゴ">

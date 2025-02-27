@@ -14,18 +14,24 @@
 <style>
 /* 全体のスタイル */
 .header {
-    position: fixed; /* 画面上部に固定 */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 60px; /* ヘッダーの高さ */
-    background-color: rgba(160, 200, 255, 0.31); /* 背景色（濃いグレー） */
-    color: #fff; /* テキスト色（白） */
-    display: flex; /* フレックスボックスでレイアウト */
-    align-items: center; /* 縦方向中央揃え */
-    justify-content: center; /* 左右に要素を配置 */
-    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1); /* 軽い影 */
-    z-index: 1000; /* 他の要素より前面に表示 */
+    height: 60px;
+    background-color: rgba(160, 200, 255, 0.31);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: transform 0.3s ease; /* ヘッダーのアニメーション用 */
+}
+
+/* スクロール時のヘッダー非表示用クラス */
+.header--hidden {
+    transform: translateY(-100%);
 }
 
 /* ロゴ画像のスタイル */
@@ -75,7 +81,27 @@
         <img src="./Image/tokozemi_logo_touka.PNG" alt="サイトロゴ">
     </a>
 </div>
-<script src="script.js"></script>
+
+<script type="text/javascript">
+{
+    let lastScrollTop = 0;
+    const header = document.querySelector('.header');
+    
+    window.addEventListener('scroll', () => {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        
+        if (scrollTop > lastScrollTop) {
+            // 下スクロール時
+            header.classList.add('header--hidden');
+        } else {
+            // 上スクロール時
+            header.classList.remove('header--hidden');
+        }
+        
+        lastScrollTop = scrollTop;
+    });
+}
+</script>
 
 * [トップ](./README.md)
 
