@@ -1,6 +1,8 @@
 ---
 layout: default
-mathjax: true
+mathjax: false
+header_style_puzzle: false
+header_script: false
 ---
 
 <!-- 以下のscriptによってコンパイルで文字を確認するためのコード
