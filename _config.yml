@@ -25,3 +25,7 @@ markdown: kramdown
 #     values:
 #       layout: "default"  # デフォルトレイアウトの指定
 #       mathjax: false     # デフォルトでMathJaxは無効
+
+remote_theme: pages-themes/primer
+plugins:
+  - jekyll-remote-theme
