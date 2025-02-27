@@ -5,9 +5,9 @@ title: ""
 # url: ""      # 本番環境のURLを設定
 
 # # ビルド設定
-# markdown: kramdown  # マークダウンパーサーの指定
-# kramdown:
-#   math_engine: mathjax  # 数式表示用の設定
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
 
 # # ファイル除外設定
 # exclude:
