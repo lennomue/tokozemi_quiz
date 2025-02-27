@@ -1,14 +1,14 @@
 <div style="height: 30px; background-color:rgb(255, 255, 255);"></div>
 
 ---
-[TOP](../README.md) > [トリビア](./trivia_home.md)
+[TOP](../README.md) > [保管庫](./SUMMARY.md) > [トリビア](./trivia_home.md)
 
 ---
 # トリビア！
 
 ---
 <p style="color: gray; font-size: 12px;">
-最終更新(2025/01/13)　投稿日(2025/01/12)
+最終更新(2025/02/27)　投稿日(2025/01/12)
 </p>
 
 <style>
@@ -79,10 +79,9 @@
 
 <!-- HTML部分 -->
 <div class="info-section">
-    <p>日常に転がる小さな疑問から出題です。</p>
-    <p>変なものであるほど覚えたくなるのが人の性です。解説もクイズの醍醐味です。</p>
+    <p>日常に転がる小さな疑問から出題です。<br>
+    ジャンルは多岐にわたります。自分の知らない世界にこそぜひ挑戦してみてください！</p>
 </div>
-
 
 - [難読漢字](./trivia_kanji.md)
 - 人物

@@ -1,13 +1,13 @@
 <div style="height: 30px; background-color:rgb(255, 255, 255);"></div>
 
 ---
-[TOP](../README.md) > [パズル](./puzzle_home.md)
+[TOP](../README.md) > [保管庫](./SUMMARY.md) > [パズル](./puzzle_home.md)
 
 ---
 # パズル！
 ---
 <p style="color: gray; font-size: 12px;">
-最終更新(2025/02/26)　投稿日(2025/01/12)
+最終更新(2025/02/27)　投稿日(2025/01/12)
 </p>
 
 <style>
@@ -77,9 +77,8 @@
 <script src="script.js"></script>
 
 <div class="info-section">
-    <p>子供から大人まで楽しめます。</p>
-    <p>ぜひ粘り強く考えてください！</p>
-    <p>頭の体操が好きな方は「みたことある！」となるかもしれません。</p>
+    <p>子供から大人まで楽しめます。ぜひ粘り強く考えてください！<br>
+    頭の体操が好きな方は「みたことある！」となるかもしれません。</p>
 </div>
 
 - [計算](./puzzle_keisan.md)

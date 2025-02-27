@@ -1,13 +1,13 @@
 <div style="height: 30px; background-color:rgb(255, 255, 255);"></div>
 
 ---
-[TOP](../README.md) > [パズル](./puzzle_home.md) > [計算](./puzzle_keisan.md)
+[TOP](../README.md) > [保管庫](./SUMMARY.md) > [パズル](./puzzle_home.md) > [計算](./puzzle_keisan.md)
 
 ---
 # パズル！ - 計算
 ---
 <p style="color: gray; font-size: 12px;">
-最終更新(2025/02/26)　投稿日(2025/01/12)
+最終更新(2025/02/27)　投稿日(2025/01/12)
 </p>
 
 <style>

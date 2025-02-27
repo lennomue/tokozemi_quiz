@@ -116,13 +116,13 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 </script>
 
-
+<script src="script.js"></script>
 <div class="header">
     <a href="https://tokozemi.securesite.jp/">
         <img src="./Image/tokozemi_logo_touka.PNG" alt="サイトロゴ">
     </a>
 </div>
-<script src="script.js"></script>
+
 
 <!-- htmlタグからのhrefをする際には、github pagesがレンダーしたのちの~.htmlで指定します -->
 <div class="info-section">

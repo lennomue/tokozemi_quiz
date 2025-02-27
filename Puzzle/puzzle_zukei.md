@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <div style="height: 30px; background-color:rgb(255, 255, 255);"></div>
 
 ---
-[TOP](../README.md) > [パズル](./puzzle_home.md) > [図形](./puzzle_zukei.md)
+[TOP](../README.md) > [保管庫](./SUMMARY.md) > [パズル](./puzzle_home.md) > [図形](./puzzle_zukei.md)
 
 ---
 # パズル！ - 図形
