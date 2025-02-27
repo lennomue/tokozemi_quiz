@@ -1,3 +1,8 @@
+---
+layout: default
+mathjax: true
+---
+
 <div style="height: 30px; background-color:rgb(255, 255, 255);"></div>
 
 ---
