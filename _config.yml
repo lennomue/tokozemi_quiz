@@ -6,8 +6,8 @@ title: ""
 
 # # ビルド設定
 markdown: kramdown
-kramdown:
-  math_engine: mathjax
+# kramdown:
+#   math_engine: mathjax
 
 # # ファイル除外設定
 # exclude:
