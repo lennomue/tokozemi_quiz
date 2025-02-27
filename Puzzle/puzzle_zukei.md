@@ -1,6 +1,8 @@
 ---
 layout: default
 mathjax: true
+header_style_puzzle: true
+header_script: true
 ---
 
 <div style="height: 30px; background-color:rgb(255, 255, 255);"></div>
@@ -15,7 +17,7 @@ mathjax: true
 最終更新(2025/02/27)　投稿日(2025/2/26)
 </p>
 
-<style>
+<!-- <style>
 .header {
     position: fixed; /* 画面上部に固定 */
     top: 0;
@@ -44,7 +46,7 @@ mathjax: true
     background-color: transparent; /* 背景を透明に指定 */
     image-rendering: auto; /* PNG画像のレンダリング設定 */
 }
-</style>
+</style> -->
 
 <div class="header">
     <a href="https://tokozemi.securesite.jp/">
